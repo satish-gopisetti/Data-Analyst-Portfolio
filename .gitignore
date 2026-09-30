@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (keep repo lightweight — reference dataset source in findings.md instead)
+*.csv
+!sample_*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Excel temp files
+~$*.xlsx
